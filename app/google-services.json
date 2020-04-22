@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "608987318103",
+    "firebase_url": "https://assist-buddy.firebaseio.com",
+    "project_id": "assist-buddy",
+    "storage_bucket": "assist-buddy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608987318103:android:99d41db58eb25bd574e012",
+        "android_client_info": {
+          "package_name": "com.ctathva.assistbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608987318103-i75uh9pkqbal5svbc0bfoaqjlpe4ktg4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ctathva.assistbuddy",
+            "certificate_hash": "7ccc168a885fc73d7879977c971ed3946b567b5e"
+          }
+        },
+        {
+          "client_id": "608987318103-tdku7orvike233b1r7av558jm6jk4pa8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzNUlTy52pqodMlplOmbFuolGxahZSTM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608987318103-lj9jq9rrbmkqjbc2iqt5p8up5jke5pvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

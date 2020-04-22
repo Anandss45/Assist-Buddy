@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/main_layout"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/login_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/neon"
+        android:background="#069578"
+        android:scaleType="fitXY"/>
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_mab"/>
+    <RelativeLayout
+        android:id="@+id/details"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:background="@drawable/background"
+            android:inputType="textPersonName"
+            android:hint="Your Name"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawableTint="#fff"
+            android:drawablePadding="5dp"
+            android:paddingStart="3dp"
+            android:textColorHint="#fff"
+            android:maxLength="10"
+            android:maxLines="1"
+            />
+        <EditText
+            android:id="@+id/phno"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:inputType="number|phone"
+            android:textColor="#fff"
+            android:layout_below="@+id/name"
+            android:maxLength="10"
+            android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+            android:drawablePadding="5dp"
+            android:textColorHint="#fff"
+            android:hint="Your Phone Number"
+            android:paddingStart="3dp"
+            android:maxLines="1"
+            android:background="@drawable/background"
+            android:layout_marginTop="25dp"
+
+            />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/phno"
+            android:textColor="#fff"
+            android:drawableStart="@drawable/ic_mail"
+            android:drawablePadding="5dp"
+            android:textColorHint="#fff"
+            android:hint="Your Email"
+            android:paddingStart="3dp"
+            android:maxLines="1"
+            android:background="@drawable/background"
+            android:layout_marginTop="25dp"
+            tools:ignore="RtlSymmetry" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/verify"
+        android:text="Verify"
+        android:textSize="24dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_below="@id/details"
+        android:background="@drawable/button"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#3B5998"
+        android:layout_marginTop="40dp"
+        />
+
+</RelativeLayout>
